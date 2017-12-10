@@ -36,6 +36,7 @@
     disabledPackages: [
       "symbols-view"
     ]
+    excludeVcsIgnoredPaths: false
     packagesWithKeymapsDisabled: []
     projectHome: "/home/zugor/code"
     telemetryConsent: "no"
@@ -112,3 +113,6 @@
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+".html.php.text":
+  editor:
+    autoIndentOnPaste: true
