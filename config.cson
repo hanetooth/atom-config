@@ -1,0 +1,114 @@
+"*":
+  "atom-autocomplete-php": {}
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnType: false
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDiagnosticTraces: true
+      showDirectoryColumn: true
+    "atom-ide-outline-view": {}
+  "atom-material-ui":
+    colors:
+      abaseColor: "#795548"
+      predefinedColor: "Brown"
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "atom-package-deps":
+    ignored: []
+  "autocomplete-php": {}
+  "autocomplete-plus":
+    autoActivationDelay: 1
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "enter"
+    enableExtendedUnicodeSupport: true
+    includeCompletionsFromAllBuffers: false
+    minimumWordLength: 1
+    strictMatching: true
+  core:
+    autoHideMenuBar: true
+    automaticallyUpdate: false
+    disabledPackages: [
+      "symbols-view"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/home/zugor/code"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "pure-syntax"
+    ]
+  "custom-title":
+    template: "<%= projectName %> <% if (relativeFilePath) { %>- <%= relativeFilePath %> <% } %> - <%= gitHead %>"
+  docblockr:
+    auto_add_method_tag: true
+  editor:
+    autoIndentOnPaste: false
+    fontFamily: "Office Code Pro"
+    fontSize: 17
+    lineHeight: 1.8
+    scrollSensitivity: 100
+    showIndentGuide: true
+    tabLength: 4
+    zoomFontWhenCtrlScrolling: false
+  emmet: {}
+  "exception-reporting":
+    userId: "c64d8c0f-0e99-43b9-830c-34a1df32194a"
+  "ide-php":
+    phpPath: "/usr/bin/php7.0"
+  linter: {}
+  "linter-php":
+    executablePath: "/usr/bin/php7.1"
+  "linter-ui-default":
+    decorateOnTreeView: "Files and Directories"
+    gutterPosition: "Left"
+    panelHeight: 300
+    showProviderName: true
+  minimap:
+    displayPluginsControls: false
+  "one-dark-ui": {}
+  "php-integrator-autocomplete-plus":
+    automaticallyAddUseStatements: false
+  "php-integrator-base":
+    core:
+      memoryLimit: 2048
+      phpCommand: "/usr/bin/php7.1"
+    general:
+      indexContinuously: false
+    linting:
+      showMissingDocs: false
+      showUnknownClasses: false
+      showUnknownGlobalConstants: false
+      validateDocblockCorrectness: false
+    signatureHelp:
+      enable: false
+    tooltips:
+      enable: false
+  "platformio-ide-terminal":
+    core:
+      mapTerminalsToAutoOpen: true
+    style:
+      animationSpeed: 0
+      defaultPanelHeight: "200px"
+    toggles:
+      autoClose: true
+  "project-manager": {}
+  "seti-ui":
+    compactView: true
+  "status-bar": {}
+  tabe25m:
+    nextBreakTime: 1509971684267
+  "take-a-break":
+    warnTime: 2
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
