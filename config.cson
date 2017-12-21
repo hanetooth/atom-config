@@ -73,11 +73,10 @@
   minimap:
     displayPluginsControls: false
   "one-dark-ui": {}
-  "php-integrator-autocomplete-plus":
-    automaticallyAddUseStatements: false
+  "php-integrator-autocomplete-plus": {}
   "php-integrator-base":
     core:
-      memoryLimit: 2048
+      memoryLimit: 4096
       phpCommand: "/usr/bin/php7.1"
     general:
       indexContinuously: false
