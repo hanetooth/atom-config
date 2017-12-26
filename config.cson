@@ -1,4 +1,7 @@
 "*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
   "atom-autocomplete-php": {}
   "atom-ctags":
     autoBuildTagsWhenActive: true
@@ -37,7 +40,6 @@
       "symbols-view"
     ]
     excludeVcsIgnoredPaths: false
-    packagesWithKeymapsDisabled: []
     projectHome: "/home/zugor/code"
     telemetryConsent: "no"
     themes: [
@@ -60,6 +62,11 @@
   emmet: {}
   "exception-reporting":
     userId: "c64d8c0f-0e99-43b9-830c-34a1df32194a"
+  "file-header":
+    email: "zugor@programmer.net"
+    realname: "Zugor"
+    username: "zugor"
+  "fuzzy-finder": {}
   "ide-php":
     phpPath: "/usr/bin/php7.0"
   linter: {}

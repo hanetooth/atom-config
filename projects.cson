@@ -15,4 +15,10 @@
           "php"
         ]
   }
+  {
+    title: "Ybsr Voting Platform"
+    paths: [
+      "/home/zugor/code/ybsr-voting-platform"
+    ]
+  }
 ]
