@@ -1,0 +1,84 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "barryvdh/laravel-debugbar": "^2.4",
+        "cviebrock/eloquent-sluggable": "^4.1",
+        "doctrine/dbal": "^2.5",
+        "gazsp/baum": "^1.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "intervention/image": "^2.4",
+        "kalnoy/nestedset": "^4.1",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0",
+        "predis/predis": "^1.1",
+        "pyaesone17/active-state": "^1.1",
+        "spatie/laravel-medialibrary": "^4.9",
+        "yajra/laravel-datatables-oracle": "^6.21"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "MyanmarLinks\\AdminLte\\": "packages/myanmarlinks/admin-lte/src/",
+            "MyanmarLinks\\MediaLib\\": "packages/myanmarlinks/media-lib/src/",
+            "MyanmarLinks\\BlogModule\\": "packages/myanmarlinks/blog-module/src/",
+            "Magic\\ProductModule\\ProductCategory\\": "packages/magic/product_module/product_category/src/",
+            "Magic\\ProductModule\\Products\\": "packages/magic/product_module/products/src/",
+            "Magic\\ProductModule\\Unit\\": "packages/magic/product_module/unit/src/",
+            "Magic\\ProductModule\\Tax\\": "packages/magic/product_module/tax/src/",
+            "Magic\\PurchaseModule\\PurchasePrice\\": "packages/magic/purchase_module/purchase_price/src/",
+            "Magic\\Store\\": "packages/magic/store_module/src/",
+            "Magic\\ProductModule\\Saletype\\": "packages/magic/product_module/saletype/src/",
+            "Magic\\ProductModule\\Currency\\": "packages/magic/product_module/currency/src/",
+            "Magic\\SubscriptionModule\\": "packages/magic/subscription_module/src/",
+            "Repository\\": "packages/Repository/src/",
+            "MagicManager\\": "packages/magic_manager/src/",
+<<<<<<< HEAD
+            "MenuManager\\": "packages/menu_manager/src/",
+            "Frontend\\Themes\\MaterialZ\\": "packages/magic_frontend/themes/materialZ/src/"
+=======
+            "Frontend\\Themes\\MaterialZ\\": "packages/magic_frontend/themes/materialZ/src/",
+            "Pages\\": "packages/pages/src/",
+            "SliderManager\\": "packages/slider_manager/src/"
+>>>>>>> 093ad2f472ce493bb678eed436d9ad2b02e49d81
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
