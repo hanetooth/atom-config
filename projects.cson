@@ -19,7 +19,6 @@
     title: "Ybsr Voting Platform"
     paths: [
       "/home/zugor/code/ybsr-voting-platform"
-      "/home/zugor/.atom/packages/file-header/lib/templates"
     ]
     php:
       enabled: true
@@ -35,6 +34,12 @@
     title: "Yangonbusreport"
     paths: [
       "/home/zugor/code/yangonbusreport"
+    ]
+  }
+  {
+    title: "Savethelibrary"
+    paths: [
+      "/home/zugor/code/savethelibrary"
     ]
   }
 ]

@@ -7,9 +7,9 @@
     autoBuildTagsWhenActive: true
   "atom-ide-ui":
     "atom-ide-code-format":
+      formatOnSave: true
       formatOnType: false
     "atom-ide-diagnostics-ui":
-      autoVisibility: true
       showDiagnosticTraces: true
       showDirectoryColumn: true
     "atom-ide-outline-view": {}
@@ -36,10 +36,11 @@
   core:
     autoHideMenuBar: true
     automaticallyUpdate: false
+    closeDeletedFileTabs: true
     disabledPackages: [
       "symbols-view"
     ]
-    excludeVcsIgnoredPaths: false
+    openEmptyEditorOnStart: false
     projectHome: "/home/zugor/code"
     telemetryConsent: "no"
     themes: [
@@ -48,17 +49,17 @@
     ]
   "custom-title":
     template: "<%= projectName %> <% if (relativeFilePath) { %>- <%= relativeFilePath %> <% } %> - <%= gitHead %>"
-  "dark-flat-ui":
-    coloredTabs: false
+  "dark-flat-ui": {}
   docblockr:
     auto_add_method_tag: true
   editor:
-    autoIndentOnPaste: false
-    fontFamily: "Office Code Pro"
-    fontSize: 17
-    lineHeight: 1.8
+    fontFamily: "Monaco"
+    fontSize: 18
+    invisibles: {}
+    lineHeight: 2
     scrollSensitivity: 100
     showIndentGuide: true
+    softTabs: false
     tabLength: 4
     zoomFontWhenCtrlScrolling: false
   emmet: {}
@@ -79,6 +80,7 @@
     useAlternateScoring: false
   "ide-php":
     phpPath: "/usr/bin/php7.0"
+  "ide-vue": {}
   linter: {}
   "linter-php":
     executablePath: "/usr/bin/php7.1"
@@ -100,7 +102,6 @@
       showMissingDocs: false
       showUnknownClasses: false
       showUnknownGlobalConstants: false
-      showUnusedUseStatements: false
       validateDocblockCorrectness: false
     signatureHelp:
       enable: false
@@ -123,7 +124,7 @@
   "take-a-break":
     warnTime: 2
   "tree-view":
-    hideVcsIgnoredFiles: true
+    autoReveal: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":
